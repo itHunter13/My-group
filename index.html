@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Моя группа</title>
+</head>
+<body>
+
+<h1>Моя группа</h1>
+
+<h2 id="count"></h2>
+<div id="students"></div>
+
+<input id="surname" placeholder="Введи фамилию">
+<button onclick="searchStudent()">Найти</button>
+<button onclick="clearSearch()">Очистить</button>
+<button onclick="deleteStudent()">Удалить студента</button>
+
+<h2>Добавить студента</h2>
+
+<p><input id="newSurname" placeholder="Фамилия"></p>
+<p><input id="newName" placeholder="Имя"></p>
+<p><input id="newPatronymic" placeholder="Отчество"></p>
+<p><input id="newBirthday" placeholder="Дата рождения"></p>
+<p><input id="newAddress" placeholder="Адрес"></p>
+<p><input id="newPhone" placeholder="Телефон"></p>
+
+<button onclick="addStudent()">Добавить</button>
+
+<div id="result"></div>
+
+<script src="Student.js"></script>
+<script src="Group.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
